@@ -117,6 +117,108 @@ const SecurityCard = ({ leak }) => {
   );
 };
 
+const SecurityScanner = () => {
+  const [input, setInput] = useState('');
+  const [results, setResults] = useState(null);
+  const [isScanning, setIsScanning] = useState(false);
+
+  const leakPatterns = [
+    { name: 'Generic API Key', regex: /[a-zA-Z0-9]{32,45}/g, advice: 'Ensure this key is not used on the frontend. Move it to a secure .env file on your backend.' },
+    { name: 'Stripe Secret Key', regex: /sk_live_[0-9a-zA-Z]{24}/g, advice: 'CRITICAL: Your Stripe Secret Key is exposed. Revoke it immediately in your Stripe Dashboard and use Restricted Keys or a backend proxy.' },
+    { name: 'AWS Access Key', regex: /AKIA[0-9A-Z]{16}/g, advice: 'High Risk: AWS keys can lead to massive bills if stolen. Revoke these in IAM and use IAM Roles instead.' },
+    { name: 'Google API Key', regex: /AIza[0-9A-Za-z\\-_]{35}/g, advice: 'Warning: Google API keys should be restricted by IP or HTTP referrer in the Google Cloud Console.' }
+  ];
+
+  const handleScan = () => {
+    setIsScanning(true);
+    setResults(null);
+    
+    // Simulate network delay
+    setTimeout(() => {
+      const found = [];
+      leakPatterns.forEach(pattern => {
+        const matches = input.match(pattern.regex);
+        if (matches) {
+          found.push({ ...pattern, matches: [...new Set(matches)] });
+        }
+      });
+      setResults(found);
+      setIsScanning(false);
+    }, 1500);
+  };
+
+  return (
+    <div className="max-w-4xl mx-auto glass-panel p-8 rounded-3xl space-y-6">
+      <div className="flex items-center space-x-4 mb-4">
+        <div className="p-3 bg-neon-cyan/10 rounded-2xl text-neon-cyan">
+          <ShieldAlert size={32} />
+        </div>
+        <div>
+          <h2 className="text-2xl font-bold">Personal Security Scanner</h2>
+          <p className="text-gray-400 text-sm">Paste your URL or code snippet below to check for accidentally exposed keys.</p>
+        </div>
+      </div>
+
+      <textarea 
+        className="w-full h-48 bg-dark-900/50 border border-white/10 rounded-2xl p-4 font-mono text-sm text-gray-300 focus:outline-none focus:border-neon-cyan transition-all"
+        placeholder="Paste your code (e.g. index.js, .env content) or URL here..."
+        value={input}
+        onChange={(e) => setInput(e.target.value)}
+      />
+
+      <button 
+        onClick={handleScan}
+        disabled={!input || isScanning}
+        className="w-full py-4 bg-gradient-to-r from-neon-cyan to-neon-purple rounded-2xl font-bold text-black hover:opacity-90 transition-all disabled:opacity-50 flex justify-center items-center space-x-2"
+      >
+        {isScanning ? (
+          <div className="w-5 h-5 border-2 border-black/20 border-t-black rounded-full animate-spin"></div>
+        ) : (
+          <>
+            <Activity size={20} />
+            <span>Analyze for Leaks</span>
+          </>
+        )}
+      </button>
+
+      {results && (
+        <div className="mt-8 space-y-4 animate-in fade-in slide-in-from-bottom-4 duration-500">
+          <h3 className="text-lg font-bold flex items-center space-x-2">
+            <AlertTriangle className={results.length > 0 ? 'text-red-500' : 'text-neon-green'} />
+            <span>Scan Results: {results.length} Potential Leaks Found</span>
+          </h3>
+          
+          {results.length === 0 ? (
+            <div className="p-6 bg-neon-green/10 border border-neon-green/20 rounded-2xl text-neon-green text-center font-medium">
+              Great! No obvious API keys detected in the provided content.
+            </div>
+          ) : (
+            results.map((leak, idx) => (
+              <div key={idx} className="p-6 bg-red-500/5 border border-red-500/20 rounded-2xl space-y-3">
+                <div className="flex justify-between items-start">
+                  <span className="px-3 py-1 bg-red-500 text-white text-[10px] font-bold uppercase rounded-full">
+                    {leak.name}
+                  </span>
+                </div>
+                <div className="space-y-1">
+                  {leak.matches.map((m, i) => (
+                    <div key={i} className="font-mono text-xs text-red-400 bg-red-500/10 p-2 rounded truncate">
+                      Found: {m.substring(0, 8)}****************
+                    </div>
+                  ))}
+                </div>
+                <div className="pt-3 border-t border-red-500/10 text-sm text-gray-300 italic">
+                  <strong>💡 Advice:</strong> {leak.advice}
+                </div>
+              </div>
+            ))
+          )}
+        </div>
+      )}
+    </div>
+  );
+};
+
 function App() {
   const [activeTab, setActiveTab] = useState('discovery');
   const [apis, setApis] = useState([]);
@@ -196,10 +298,21 @@ function App() {
               <ShieldAlert size={18} />
               <span>Security Watch</span>
             </button>
+            <button 
+              onClick={() => setActiveTab('scanner')}
+              className={`px-6 py-2 rounded-full font-bold transition-all border flex items-center space-x-2 ${activeTab === 'scanner' ? 'bg-neon-purple text-white border-neon-purple' : 'bg-transparent text-gray-400 border-white/10 hover:border-white/20'}`}
+            >
+              <Activity size={18} />
+              <span>Scanner</span>
+            </button>
           </div>
         </header>
 
-        <section className="mb-12 max-w-4xl mx-auto flex flex-col md:flex-row gap-4">
+        {activeTab === 'scanner' ? (
+          <SecurityScanner />
+        ) : (
+          <>
+            <section className="mb-12 max-w-4xl mx-auto flex flex-col md:flex-row gap-4">
           <div className="flex-grow relative group">
             <div className="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none text-gray-500 group-focus-within:text-neon-cyan transition-colors">
               <Search size={20} />
@@ -249,6 +362,8 @@ function App() {
             <Search size={48} className="mx-auto mb-4 text-gray-600" />
             <p>No results found for "{searchTerm}"</p>
           </div>
+        )}
+        </>
         )}
       </main>
     </div>

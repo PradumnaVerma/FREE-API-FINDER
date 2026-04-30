@@ -27,8 +27,11 @@ jobs:
         run: npm install
 
       - name: Run Discovery & Validation
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           node fetch_apis.js
+          node leak_detector.js
           # Create public folder if it doesn't exist
           mkdir -p public
           cp discovery.json public/data.json

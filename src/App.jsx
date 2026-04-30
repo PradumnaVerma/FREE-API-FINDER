@@ -159,6 +159,23 @@ function App() {
 
       <main className="container mx-auto px-4 py-12 relative z-10 max-w-7xl">
         <header className="mb-12 text-center space-y-4">
+          <div className="flex justify-between items-center mb-8 px-4 py-2 bg-white/5 rounded-full border border-white/10 max-w-fit mx-auto">
+            <div className="flex items-center space-x-2">
+              <span className="w-2 h-2 bg-neon-green rounded-full animate-ping"></span>
+              <span className="text-[10px] font-bold text-gray-400 uppercase tracking-widest">Live Engine Pulse</span>
+            </div>
+            <div className="mx-4 w-px h-4 bg-white/10"></div>
+            <a 
+              href="https://github.com/PradumnaVerma/FREE-API-FINDER/actions" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-[10px] font-bold text-neon-cyan hover:text-white transition-colors uppercase tracking-widest flex items-center space-x-1"
+            >
+              <span>Trigger Manual Sync</span>
+              <ExternalLink size={10} />
+            </a>
+          </div>
+
           <div className="inline-flex items-center justify-center space-x-3 mb-4">
             <Activity className="text-neon-cyan" size={40} />
             <h1 className="text-5xl font-extrabold tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-neon-cyan to-neon-purple">

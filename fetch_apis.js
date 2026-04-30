@@ -16,8 +16,9 @@ async function fetchApis() {
                 }
                 
                 const parts = trimmed.split('|').map(p => p.trim());
-                if (parts.length > 2) {
+                if (parts.length > 3) {
                     const apiCell = parts[1];
+                    const authCell = parts[3];
                     const match = apiCell.match(/\[(.*?)\]\((.*?)\)/);
                     if (match) {
                         let url = match[2].trim();
@@ -25,7 +26,8 @@ async function fetchApis() {
                         
                         apis.push({
                             name: match[1].trim(),
-                            url: url
+                            url: url,
+                            auth: authCell.replace(/`/g, '') || "No"
                         });
                     }
                 }

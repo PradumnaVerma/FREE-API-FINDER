@@ -52,7 +52,12 @@ const ApiCard = ({ api }) => {
         </div>
 
         <div className="mt-auto pt-4 border-t border-white/10 flex justify-between items-center">
-          <span className="text-xs font-medium text-neon-purple uppercase tracking-wider">Public API</span>
+          <div className="flex flex-col">
+            <span className="text-[10px] text-gray-500 uppercase font-bold tracking-wider mb-0.5">Authentication</span>
+            <span className={`text-xs font-bold uppercase tracking-wider ${api.auth === 'No' ? 'text-neon-green' : 'text-neon-purple'}`}>
+              {api.auth === 'No' ? 'No Key Needed' : api.auth}
+            </span>
+          </div>
           
           <a 
             href={api.url} 

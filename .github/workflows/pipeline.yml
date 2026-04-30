@@ -2,7 +2,7 @@ name: API-Pulse Pipeline
 
 on:
   schedule:
-    - cron: '0 0 * * 0' # Weekly on Sundays
+    - cron: '*/15 * * * *' # Every 15 minutes
   workflow_dispatch: # Allow manual trigger
 
 permissions:

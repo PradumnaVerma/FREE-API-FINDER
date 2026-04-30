@@ -228,17 +228,23 @@ function App() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    Promise.all([
-      fetch('/data.json').then(res => res.json()),
-      fetch('/security.json').then(res => res.json())
-    ]).then(([apiData, securityData]) => {
-      setApis(apiData);
-      setLeaks(securityData);
-      setLoading(false);
-    }).catch(err => {
-      console.error("Failed to load data", err);
-      setLoading(false);
-    });
+    const fetchData = () => {
+      Promise.all([
+        fetch('/data.json').then(res => res.json()),
+        fetch('/security.json').then(res => res.json())
+      ]).then(([apiData, securityData]) => {
+        setApis(apiData);
+        setLeaks(securityData);
+        setLoading(false);
+      }).catch(err => {
+        console.error("Failed to load data", err);
+        setLoading(false);
+      });
+    };
+
+    fetchData();
+    const interval = setInterval(fetchData, 60000); // Auto-refresh every 60 seconds
+    return () => clearInterval(interval);
   }, []);
 
   const categories = ['All', ...new Set(apis.map(api => api.category))].filter(Boolean);

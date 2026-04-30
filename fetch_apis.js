@@ -7,18 +7,28 @@ async function fetchApis() {
         
         const apis = [];
         const lines = text.split('\n');
+        let currentCategory = "General";
         
         for (const line of lines) {
             const trimmed = line.trim();
+            
+            // Detect Category from headers (### Category)
+            if (trimmed.startsWith('### ')) {
+                currentCategory = trimmed.replace('### ', '').trim();
+                continue;
+            }
+
             if (trimmed.startsWith('|') && trimmed.includes('](')) {
                 if (trimmed.includes('|---') || trimmed.includes('|:---') || trimmed.includes('| API |')) {
                     continue;
                 }
                 
                 const parts = trimmed.split('|').map(p => p.trim());
-                if (parts.length > 3) {
+                if (parts.length > 4) {
                     const apiCell = parts[1];
+                    const descriptionCell = parts[2];
                     const authCell = parts[3];
+                    
                     const match = apiCell.match(/\[(.*?)\]\((.*?)\)/);
                     if (match) {
                         let url = match[2].trim();
@@ -27,7 +37,9 @@ async function fetchApis() {
                         apis.push({
                             name: match[1].trim(),
                             url: url,
-                            auth: authCell.replace(/`/g, '') || "No"
+                            description: descriptionCell,
+                            auth: authCell.replace(/`/g, '') || "No",
+                            category: currentCategory
                         });
                     }
                 }

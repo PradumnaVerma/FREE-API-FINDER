@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Search, Activity, ExternalLink, Globe, Copy, Check, ShieldAlert, AlertTriangle, User, ArrowRight } from 'lucide-react';
+import { Search, Activity, ExternalLink, Globe, Copy, Check, ShieldAlert, AlertTriangle, User, ArrowRight, Filter, Tag } from 'lucide-react';
 
 const ApiCard = ({ api }) => {
   const [copied, setCopied] = useState(false);
@@ -28,9 +28,17 @@ const ApiCard = ({ api }) => {
       </div>
 
       <div className="flex flex-col flex-grow mt-2">
+        <div className="flex items-center space-x-2 mb-2">
+          <span className="px-2 py-0.5 bg-neon-cyan/10 border border-neon-cyan/20 text-neon-cyan text-[10px] font-bold uppercase rounded-md">
+            {api.category || 'General'}
+          </span>
+        </div>
+        
         <h3 className="text-xl font-bold text-white mb-1 group-hover:text-neon-cyan transition-colors truncate pr-16">{api.name}</h3>
-        <div className="flex items-center text-gray-400 text-sm mb-4 space-x-2">
-          <Globe size={14} />
+        <p className="text-gray-400 text-xs mb-4 line-clamp-2 min-h-[2.5rem] italic">"{api.description}"</p>
+
+        <div className="flex items-center text-gray-400 text-[10px] mb-4 space-x-2 uppercase font-bold tracking-wider">
+          <Globe size={12} />
           <span>{owner}</span>
         </div>
 
@@ -81,8 +89,11 @@ const SecurityCard = ({ leak }) => {
       <div className="space-y-3 flex-grow">
         <div className="bg-dark-900/50 rounded-lg p-3 border border-white/5 font-mono text-xs text-gray-400">
           <div className="text-red-400/50 mb-1">LEAKED_SECRET:</div>
-          <div className="tracking-widest font-bold text-gray-300">{leak.leaked_key_preview}********</div>
+          <div className="tracking-widest font-bold text-gray-300">
+            {leak.leaked_key_preview}****************
+          </div>
         </div>
+        <p className="text-[10px] text-red-500 font-bold italic uppercase animate-pulse">⚠️ SECURITY POLICY: Full private keys are never displayed publicly.</p>
 
         <div className="flex items-center space-x-2 text-sm text-gray-400 bg-white/5 p-2 rounded-lg">
           <User size={14} className="text-neon-cyan" />
@@ -111,6 +122,7 @@ function App() {
   const [apis, setApis] = useState([]);
   const [leaks, setLeaks] = useState([]);
   const [searchTerm, setSearchTerm] = useState('');
+  const [selectedCategory, setSelectedCategory] = useState('All');
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -127,8 +139,15 @@ function App() {
     });
   }, []);
 
+  const categories = ['All', ...new Set(apis.map(api => api.category))].filter(Boolean);
+
   const filteredItems = activeTab === 'discovery' 
-    ? apis.filter(api => api.name.toLowerCase().includes(searchTerm.toLowerCase()) || api.url.toLowerCase().includes(searchTerm.toLowerCase()))
+    ? apis.filter(api => 
+        (selectedCategory === 'All' || api.category === selectedCategory) &&
+        (api.name.toLowerCase().includes(searchTerm.toLowerCase()) || 
+         api.url.toLowerCase().includes(searchTerm.toLowerCase()) ||
+         api.description.toLowerCase().includes(searchTerm.toLowerCase()))
+      )
     : leaks.filter(leak => leak.owner.toLowerCase().includes(searchTerm.toLowerCase()) || leak.service.toLowerCase().includes(searchTerm.toLowerCase()));
 
   return (
@@ -163,17 +182,36 @@ function App() {
           </div>
         </header>
 
-        <section className="mb-12 max-w-2xl mx-auto relative group">
-          <div className="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none text-gray-500 group-focus-within:text-neon-cyan transition-colors">
-            <Search size={20} />
+        <section className="mb-12 max-w-4xl mx-auto flex flex-col md:flex-row gap-4">
+          <div className="flex-grow relative group">
+            <div className="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none text-gray-500 group-focus-within:text-neon-cyan transition-colors">
+              <Search size={20} />
+            </div>
+            <input
+              type="text"
+              className="w-full bg-dark-800/50 border border-white/10 rounded-2xl py-4 pl-12 pr-4 text-white placeholder-gray-500 focus:outline-none focus:border-neon-cyan focus:ring-1 focus:ring-neon-cyan transition-all glass-panel"
+              placeholder={activeTab === 'discovery' ? "Search providers, keywords, or use cases..." : "Search owners or services..."}
+              value={searchTerm}
+              onChange={(e) => setSearchTerm(e.target.value)}
+            />
           </div>
-          <input
-            type="text"
-            className="w-full bg-dark-800/50 border border-white/10 rounded-2xl py-4 pl-12 pr-4 text-white placeholder-gray-500 focus:outline-none focus:border-neon-cyan focus:ring-1 focus:ring-neon-cyan transition-all glass-panel"
-            placeholder={activeTab === 'discovery' ? "Search providers or endpoints..." : "Search owners or services..."}
-            value={searchTerm}
-            onChange={(e) => setSearchTerm(e.target.value)}
-          />
+
+          {activeTab === 'discovery' && (
+            <div className="relative w-full md:w-64">
+              <div className="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none text-gray-500">
+                <Filter size={18} />
+              </div>
+              <select
+                value={selectedCategory}
+                onChange={(e) => setSelectedCategory(e.target.value)}
+                className="w-full bg-dark-800/50 border border-white/10 rounded-2xl py-4 pl-12 pr-4 text-white appearance-none focus:outline-none focus:border-neon-cyan transition-all glass-panel"
+              >
+                {categories.map(cat => (
+                  <option key={cat} value={cat} className="bg-dark-800">{cat}</option>
+                ))}
+              </select>
+            </div>
+          )}
         </section>
 
         {loading ? (

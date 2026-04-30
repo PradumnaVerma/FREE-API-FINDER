@@ -52,8 +52,12 @@ async function findLeaks() {
     // Filter duplicates
     const uniqueLeaks = Array.from(new Map(leaks.map(item => [item.id, item])).values());
 
-    fs.writeFileSync('./public/security.json', JSON.stringify(uniqueLeaks, null, 2));
-    console.log(`Detected ${uniqueLeaks.length} potential leaks and saved to public/security.json`);
+    if (uniqueLeaks.length > 0) {
+        fs.writeFileSync('./public/security.json', JSON.stringify(uniqueLeaks, null, 2));
+        console.log(`Detected ${uniqueLeaks.length} potential leaks and saved to public/security.json`);
+    } else {
+        console.log("No new leaks detected. Keeping existing data.");
+    }
 }
 
 findLeaks();

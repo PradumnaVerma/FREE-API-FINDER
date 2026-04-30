@@ -1,0 +1,29 @@
+[
+  {
+    "id": "leak_001",
+    "service": "GitHub",
+    "owner": "dev-user-alpha",
+    "source_url": "https://github.com/dev-user-alpha/project-repo/blob/main/.env",
+    "leaked_key_preview": "sk_live_51Mv...",
+    "detected_at": "2026-04-30T12:00:00Z",
+    "severity": "Critical"
+  },
+  {
+    "id": "leak_002",
+    "service": "Reddit",
+    "owner": "coding_ninja_99",
+    "source_url": "https://reddit.com/r/learnprogramming/comments/xyz123/how_do_i_fix_this/",
+    "leaked_key_preview": "AIzaSyB-...",
+    "detected_at": "2026-04-30T11:30:00Z",
+    "severity": "High"
+  },
+  {
+    "id": "leak_003",
+    "service": "GitHub",
+    "owner": "startup-founder-x",
+    "source_url": "https://github.com/startup-founder-x/mvp-demo/blob/master/config.js",
+    "leaked_key_preview": "7a8b9c0d1e...",
+    "detected_at": "2026-04-30T10:15:00Z",
+    "severity": "Critical"
+  }
+]

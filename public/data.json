@@ -6,8 +6,8 @@
     "auth": "[<img src=\"https://run.pstmn.io/button.svg\" alt=\"Run In Postman\" style=\"width: 128px; height: 32px;\">](https://god.gw.postman.com/run-collection/10131015-55145132-244c-448c-8e6f-8780866e4862?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D10131015-55145132-244c-448c-8e6f-8780866e4862%26entityType%3Dcollection%26workspaceId%3D2b7498b6-6d91-4fa8-817f-608441fe42a8)",
     "category": "General",
     "status": "Online",
-    "latency": 197,
-    "last_checked": "2026-06-09T05:52:13.483Z"
+    "latency": 240,
+    "last_checked": "2026-06-09T09:36:38.125Z"
   },
   {
     "name": "Marketstack",
@@ -16,8 +16,8 @@
     "auth": "[<img src=\"https://run.pstmn.io/button.svg\" alt=\"Run In Postman\" style=\"width: 128px; height: 32px;\">](https://god.gw.postman.com/run-collection/10131015-9cbac391-3611-4f50-9bfd-d24ae41c97c1?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D10131015-9cbac391-3611-4f50-9bfd-d24ae41c97c1%26entityType%3Dcollection%26workspaceId%3D2b7498b6-6d91-4fa8-817f-608441fe42a8)",
     "category": "General",
     "status": "Online",
-    "latency": 327,
-    "last_checked": "2026-06-09T05:52:13.669Z"
+    "latency": 191,
+    "last_checked": "2026-06-09T09:36:38.141Z"
   },
   {
     "name": "Weatherstack",
@@ -26,8 +26,8 @@
     "auth": "[<img src=\"https://run.pstmn.io/button.svg\" alt=\"Run In Postman\" style=\"width: 128px; height: 32px;\">](https://god.gw.postman.com/run-collection/10131015-276c4312-f682-425d-b6b1-0f82c0a7f2b3?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D10131015-276c4312-f682-425d-b6b1-0f82c0a7f2b3%26entityType%3Dcollection%26workspaceId%3D2b7498b6-6d91-4fa8-817f-608441fe42a8)",
     "category": "General",
     "status": "Online",
-    "latency": 199,
-    "last_checked": "2026-06-09T05:52:13.542Z"
+    "latency": 184,
+    "last_checked": "2026-06-09T09:36:38.135Z"
   },
   {
     "name": "Numverify",
@@ -36,8 +36,8 @@
     "auth": "[<img src=\"https://run.pstmn.io/button.svg\" alt=\"Run In Postman\" style=\"width: 128px; height: 32px;\">](https://god.gw.postman.com/run-collection/10131015-0760d25e-b802-412e-b0e4-26e5ca3b9ffa?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D10131015-0760d25e-b802-412e-b0e4-26e5ca3b9ffa%26entityType%3Dcollection%26workspaceId%3D2b7498b6-6d91-4fa8-817f-608441fe42a8)",
     "category": "General",
     "status": "Online",
-    "latency": 378,
-    "last_checked": "2026-06-09T05:52:13.722Z"
+    "latency": 302,
+    "last_checked": "2026-06-09T09:36:38.255Z"
   },
   {
     "name": "Fixer",
@@ -46,8 +46,8 @@
     "auth": "[<img src=\"https://run.pstmn.io/button.svg\" alt=\"Run In Postman\" style=\"width: 128px; height: 32px;\">](https://god.gw.postman.com/run-collection/10131015-0d9c66b3-5f1a-42ed-a5ca-379217bd629d?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D10131015-0d9c66b3-5f1a-42ed-a5ca-379217bd629d%26entityType%3Dcollection%26workspaceId%3D2b7498b6-6d91-4fa8-817f-608441fe42a8)",
     "category": "General",
     "status": "Online",
-    "latency": 322,
-    "last_checked": "2026-06-09T05:52:13.667Z"
+    "latency": 192,
+    "last_checked": "2026-06-09T09:36:38.146Z"
   },
   {
     "name": "Aviationstack",
@@ -56,8 +56,8 @@
     "auth": "[<img src=\"https://run.pstmn.io/button.svg\" alt=\"Run In Postman\" style=\"width: 128px; height: 32px;\">](https://god.gw.postman.com/run-collection/10131015-72ee0d35-018e-4370-a2b6-a66d3ebd5b5a?action=collection/fork)",
     "category": "General",
     "status": "Online",
-    "latency": 405,
-    "last_checked": "2026-06-09T05:52:13.751Z"
+    "latency": 412,
+    "last_checked": "2026-06-09T09:36:38.367Z"
   },
   {
     "name": "Zenserp",
@@ -65,9 +65,9 @@
     "description": "Fast, Accurate Google Search Data Built for Developers",
     "auth": "[<img src=\"https://run.pstmn.io/button.svg\" alt=\"Run In Postman\" style=\"width: 128px; height: 32px;\">](https://god.gw.postman.com/run-collection/10131015-a3d63243-081e-4961-a2f0-39c7a9394b8d?action=collection/fork)",
     "category": "General",
-    "status": "Offline",
-    "latency": 437,
-    "last_checked": "2026-06-09T05:52:13.784Z"
+    "status": "Online",
+    "latency": 298,
+    "last_checked": "2026-06-09T09:36:38.253Z"
   },
   {
     "name": "Screenshotlayer",
@@ -76,8 +76,8 @@
     "auth": "[Documentation](https://docs.apilayer.com/screenshotlayer/docs/api-documentation?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers)",
     "category": "General",
     "status": "Online",
-    "latency": 406,
-    "last_checked": "2026-06-09T05:52:13.754Z"
+    "latency": 316,
+    "last_checked": "2026-06-09T09:36:38.272Z"
   },
   {
     "name": "Exchangerate Host",
@@ -86,8 +86,8 @@
     "auth": "[Documentation](https://docs.apilayer.com/Exchangerate/docs/api-documentation?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers)",
     "category": "General",
     "status": "Online",
-    "latency": 414,
-    "last_checked": "2026-06-09T05:52:13.763Z"
+    "latency": 353,
+    "last_checked": "2026-06-09T09:36:38.311Z"
   },
   {
     "name": "Mailboxlayer",
@@ -96,8 +96,8 @@
     "auth": "[Documentation](https://docs.apilayer.com/mailboxlayer/docs/api-documentation?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers)",
     "category": "General",
     "status": "Online",
-    "latency": 493,
-    "last_checked": "2026-06-09T05:52:13.843Z"
+    "latency": 360,
+    "last_checked": "2026-06-09T09:36:38.319Z"
   },
   {
     "name": "AdoptAPet",
@@ -106,8 +106,8 @@
     "auth": "apiKey",
     "category": "Animals",
     "status": "Offline",
-    "latency": 551,
-    "last_checked": "2026-06-09T05:52:13.902Z"
+    "latency": 350,
+    "last_checked": "2026-06-09T09:36:38.310Z"
   },
   {
     "name": "Axolotl",
@@ -116,8 +116,8 @@
     "auth": "No",
     "category": "Animals",
     "status": "Online",
-    "latency": 814,
-    "last_checked": "2026-06-09T05:52:14.166Z"
+    "latency": 753,
+    "last_checked": "2026-06-09T09:36:38.714Z"
   },
   {
     "name": "Cat Facts",
@@ -126,8 +126,8 @@
     "auth": "No",
     "category": "Animals",
     "status": "Online",
-    "latency": 418,
-    "last_checked": "2026-06-09T05:52:13.771Z"
+    "latency": 243,
+    "last_checked": "2026-06-09T09:36:38.205Z"
   },
   {
     "name": "Cat Facts",
@@ -136,8 +136,8 @@
     "auth": "No",
     "category": "Animals",
     "status": "Online",
-    "latency": 453,
-    "last_checked": "2026-06-09T05:52:13.807Z"
+    "latency": 267,
+    "last_checked": "2026-06-09T09:36:38.230Z"
   },
   {
     "name": "Cataas",
@@ -146,8 +146,8 @@
     "auth": "No",
     "category": "Animals",
     "status": "Online",
-    "latency": 886,
-    "last_checked": "2026-06-09T05:52:14.240Z"
+    "latency": 697,
+    "last_checked": "2026-06-09T09:36:38.661Z"
   },
   {
     "name": "Cats",
@@ -156,8 +156,8 @@
     "auth": "apiKey",
     "category": "Animals",
     "status": "Online",
-    "latency": 842,
-    "last_checked": "2026-06-09T05:52:14.197Z"
+    "latency": 504,
+    "last_checked": "2026-06-09T09:36:38.469Z"
   },
   {
     "name": "Dog Facts",
@@ -166,8 +166,8 @@
     "auth": "No",
     "category": "Animals",
     "status": "Online",
-    "latency": 578,
-    "last_checked": "2026-06-09T05:52:13.934Z"
+    "latency": 358,
+    "last_checked": "2026-06-09T09:36:38.324Z"
   },
   {
     "name": "Dog Facts",
@@ -176,8 +176,8 @@
     "auth": "No",
     "category": "Animals",
     "status": "Online",
-    "latency": 643,
-    "last_checked": "2026-06-09T05:52:14.000Z"
+    "latency": 374,
+    "last_checked": "2026-06-09T09:36:38.340Z"
   },
   {
     "name": "Dogs",
@@ -186,8 +186,8 @@
     "auth": "No",
     "category": "Animals",
     "status": "Online",
-    "latency": 898,
-    "last_checked": "2026-06-09T05:52:14.255Z"
+    "latency": 537,
+    "last_checked": "2026-06-09T09:36:38.504Z"
   },
   {
     "name": "eBird",
@@ -196,8 +196,8 @@
     "auth": "apiKey",
     "category": "Animals",
     "status": "Online",
-    "latency": 1190,
-    "last_checked": "2026-06-09T05:52:14.548Z"
+    "latency": 813,
+    "last_checked": "2026-06-09T09:36:38.781Z"
   },
   {
     "name": "FishWatch",
@@ -206,8 +206,8 @@
     "auth": "No",
     "category": "Animals",
     "status": "Online",
-    "latency": 5133,
-    "last_checked": "2026-06-09T05:52:19.682Z"
+    "latency": 4982,
+    "last_checked": "2026-06-09T09:36:43.763Z"
   },
   {
     "name": "HTTP Cat",
@@ -216,8 +216,8 @@
     "auth": "No",
     "category": "Animals",
     "status": "Online",
-    "latency": 169,
-    "last_checked": "2026-06-09T05:52:14.719Z"
+    "latency": 152,
+    "last_checked": "2026-06-09T09:36:38.935Z"
   },
   {
     "name": "HTTP Dog",
@@ -226,8 +226,8 @@
     "auth": "No",
     "category": "Animals",
     "status": "Online",
-    "latency": 354,
-    "last_checked": "2026-06-09T05:52:14.904Z"
+    "latency": 175,
+    "last_checked": "2026-06-09T09:36:38.958Z"
   },
   {
     "name": "IUCN",
@@ -236,8 +236,8 @@
     "auth": "apiKey",
     "category": "Animals",
     "status": "Offline",
-    "latency": 1034,
-    "last_checked": "2026-06-09T05:52:15.585Z"
+    "latency": 943,
+    "last_checked": "2026-06-09T09:36:39.727Z"
   },
   {
     "name": "MeowFacts",
@@ -246,8 +246,8 @@
     "auth": "No",
     "category": "Animals",
     "status": "Online",
-    "latency": 767,
-    "last_checked": "2026-06-09T05:52:15.318Z"
+    "latency": 519,
+    "last_checked": "2026-06-09T09:36:39.304Z"
   },
   {
     "name": "Movebank",
@@ -256,8 +256,8 @@
     "auth": "No",
     "category": "Animals",
     "status": "Online",
-    "latency": 751,
-    "last_checked": "2026-06-09T05:52:15.303Z"
+    "latency": 854,
+    "last_checked": "2026-06-09T09:36:39.639Z"
   },
   {
     "name": "Petfinder",
@@ -266,8 +266,8 @@
     "auth": "apiKey",
     "category": "Animals",
     "status": "Online",
-    "latency": 1225,
-    "last_checked": "2026-06-09T05:52:15.778Z"
+    "latency": 967,
+    "last_checked": "2026-06-09T09:36:39.753Z"
   },
   {
     "name": "PlaceBear",
@@ -276,8 +276,8 @@
     "auth": "No",
     "category": "Animals",
     "status": "Online",
-    "latency": 433,
-    "last_checked": "2026-06-09T05:52:14.986Z"
+    "latency": 327,
+    "last_checked": "2026-06-09T09:36:39.114Z"
   },
   {
     "name": "PlaceDog",
@@ -286,8 +286,8 @@
     "auth": "No",
     "category": "Animals",
     "status": "Online",
-    "latency": 1025,
-    "last_checked": "2026-06-09T05:52:15.579Z"
+    "latency": 600,
+    "last_checked": "2026-06-09T09:36:39.387Z"
   },
   {
     "name": "PlaceKitten",
@@ -296,8 +296,8 @@
     "auth": "No",
     "category": "Animals",
     "status": "Offline",
-    "latency": 586,
-    "last_checked": "2026-06-09T05:52:15.140Z"
+    "latency": 437,
+    "last_checked": "2026-06-09T09:36:39.225Z"
   },
   {
     "name": "RandomDog",
@@ -306,8 +306,8 @@
     "auth": "No",
     "category": "Animals",
     "status": "Online",
-    "latency": 841,
-    "last_checked": "2026-06-09T05:52:15.396Z"
+    "latency": 379,
+    "last_checked": "2026-06-09T09:36:39.167Z"
   },
   {
     "name": "RandomDuck",
@@ -316,8 +316,8 @@
     "auth": "No",
     "category": "Animals",
     "status": "Online",
-    "latency": 1068,
-    "last_checked": "2026-06-09T05:52:15.623Z"
+    "latency": 741,
+    "last_checked": "2026-06-09T09:36:39.530Z"
   },
   {
     "name": "RandomFox",
@@ -326,8 +326,8 @@
     "auth": "No",
     "category": "Animals",
     "status": "Online",
-    "latency": 948,
-    "last_checked": "2026-06-09T05:52:15.504Z"
+    "latency": 559,
+    "last_checked": "2026-06-09T09:36:39.348Z"
   },
   {
     "name": "RescueGroups",
@@ -336,8 +336,8 @@
     "auth": "No",
     "category": "Animals",
     "status": "Online",
-    "latency": 1492,
-    "last_checked": "2026-06-09T05:52:16.048Z"
+    "latency": 1254,
+    "last_checked": "2026-06-09T09:36:40.044Z"
   },
   {
     "name": "Shibe.Online",
@@ -347,7 +347,7 @@
     "category": "Animals",
     "status": "Offline",
     "latency": null,
-    "last_checked": "2026-06-09T05:52:15.417Z",
+    "last_checked": "2026-06-09T09:36:39.373Z",
     "error": "fetch failed"
   },
   {
@@ -357,8 +357,8 @@
     "auth": "apiKey",
     "category": "Animals",
     "status": "Online",
-    "latency": 1941,
-    "last_checked": "2026-06-09T05:52:16.498Z"
+    "latency": 1150,
+    "last_checked": "2026-06-09T09:36:39.941Z"
   },
   {
     "name": "xeno-canto",
@@ -367,8 +367,8 @@
     "auth": "No",
     "category": "Animals",
     "status": "Online",
-    "latency": 1304,
-    "last_checked": "2026-06-09T05:52:15.861Z"
+    "latency": 1181,
+    "last_checked": "2026-06-09T09:36:39.972Z"
   },
   {
     "name": "AniAPI",
@@ -377,8 +377,8 @@
     "auth": "OAuth",
     "category": "Anime",
     "status": "Online",
-    "latency": 2505,
-    "last_checked": "2026-06-09T05:52:17.063Z"
+    "latency": 1791,
+    "last_checked": "2026-06-09T09:36:40.583Z"
   },
   {
     "name": "AniDB",
@@ -387,8 +387,8 @@
     "auth": "apiKey",
     "category": "Anime",
     "status": "Offline",
-    "latency": 1026,
-    "last_checked": "2026-06-09T05:52:15.584Z"
+    "latency": 889,
+    "last_checked": "2026-06-09T09:36:39.681Z"
   },
   {
     "name": "AniList",
@@ -397,8 +397,8 @@
     "auth": "OAuth",
     "category": "Anime",
     "status": "Online",
-    "latency": 1785,
-    "last_checked": "2026-06-09T05:52:16.344Z"
+    "latency": 1482,
+    "last_checked": "2026-06-09T09:36:40.275Z"
   },
   {
     "name": "AnimeChan",
@@ -407,8 +407,8 @@
     "auth": "No",
     "category": "Anime",
     "status": "Online",
-    "latency": 1317,
-    "last_checked": "2026-06-09T05:52:20.999Z"
+    "latency": 1275,
+    "last_checked": "2026-06-09T09:36:45.038Z"
   },
   {
     "name": "AnimeFacts",
@@ -417,8 +417,8 @@
     "auth": "No",
     "category": "Anime",
     "status": "Online",
-    "latency": 65,
-    "last_checked": "2026-06-09T05:52:19.748Z"
+    "latency": 22,
+    "last_checked": "2026-06-09T09:36:43.787Z"
   },
   {
     "name": "AnimeNewsNetwork",
@@ -427,8 +427,8 @@
     "auth": "No",
     "category": "Anime",
     "status": "Online",
-    "latency": 1142,
-    "last_checked": "2026-06-09T05:52:20.825Z"
+    "latency": 211,
+    "last_checked": "2026-06-09T09:36:43.977Z"
   },
   {
     "name": "Catboy",
@@ -437,8 +437,8 @@
     "auth": "No",
     "category": "Anime",
     "status": "Online",
-    "latency": 211,
-    "last_checked": "2026-06-09T05:52:19.895Z"
+    "latency": 112,
+    "last_checked": "2026-06-09T09:36:43.879Z"
   },
   {
     "name": "Danbooru Anime",
@@ -447,8 +447,8 @@
     "auth": "apiKey",
     "category": "Anime",
     "status": "Online",
-    "latency": 201,
-    "last_checked": "2026-06-09T05:52:19.886Z"
+    "latency": 132,
+    "last_checked": "2026-06-09T09:36:43.899Z"
   },
   {
     "name": "Jikan",
@@ -457,8 +457,8 @@
     "auth": "No",
     "category": "Anime",
     "status": "Online",
-    "latency": 455,
-    "last_checked": "2026-06-09T05:52:20.140Z"
+    "latency": 71,
+    "last_checked": "2026-06-09T09:36:43.839Z"
   },
   {
     "name": "Kitsu",
@@ -467,8 +467,8 @@
     "auth": "OAuth",
     "category": "Anime",
     "status": "Online",
-    "latency": 2919,
-    "last_checked": "2026-06-09T05:52:22.605Z"
+    "latency": 535,
+    "last_checked": "2026-06-09T09:36:44.303Z"
   },
   {
     "name": "MangaDex",
@@ -477,8 +477,8 @@
     "auth": "apiKey",
     "category": "Anime",
     "status": "Offline",
-    "latency": 648,
-    "last_checked": "2026-06-09T05:52:20.334Z"
+    "latency": 744,
+    "last_checked": "2026-06-09T09:36:44.513Z"
   },
   {
     "name": "Mangapi",
@@ -487,8 +487,8 @@
     "auth": "apiKey",
     "category": "Anime",
     "status": "Online",
-    "latency": 890,
-    "last_checked": "2026-06-09T05:52:20.577Z"
+    "latency": 980,
+    "last_checked": "2026-06-09T09:36:44.750Z"
   },
   {
     "name": "MyAnimeList",
@@ -497,8 +497,8 @@
     "auth": "OAuth",
     "category": "Anime",
     "status": "Online",
-    "latency": 565,
-    "last_checked": "2026-06-09T05:52:20.252Z"
+    "latency": 426,
+    "last_checked": "2026-06-09T09:36:44.196Z"
   },
   {
     "name": "NekosBest",
@@ -507,8 +507,8 @@
     "auth": "No",
     "category": "Anime",
     "status": "Online",
-    "latency": 507,
-    "last_checked": "2026-06-09T05:52:20.195Z"
+    "latency": 362,
+    "last_checked": "2026-06-09T09:36:44.133Z"
   },
   {
     "name": "Shikimori",
@@ -517,8 +517,8 @@
     "auth": "OAuth",
     "category": "Anime",
     "status": "Online",
-    "latency": 989,
-    "last_checked": "2026-06-09T05:52:20.678Z"
+    "latency": 766,
+    "last_checked": "2026-06-09T09:36:44.537Z"
   },
   {
     "name": "Studio Ghibli",
@@ -527,8 +527,8 @@
     "auth": "No",
     "category": "Anime",
     "status": "Offline",
-    "latency": 621,
-    "last_checked": "2026-06-09T05:52:20.310Z"
+    "latency": 466,
+    "last_checked": "2026-06-09T09:36:44.238Z"
   },
   {
     "name": "Trace Moe",
@@ -537,8 +537,8 @@
     "auth": "No",
     "category": "Anime",
     "status": "Online",
-    "latency": 615,
-    "last_checked": "2026-06-09T05:52:20.304Z"
+    "latency": 488,
+    "last_checked": "2026-06-09T09:36:44.261Z"
   },
   {
     "name": "Waifu.im",
@@ -547,8 +547,8 @@
     "auth": "No",
     "category": "Anime",
     "status": "Online",
-    "latency": 1434,
-    "last_checked": "2026-06-09T05:52:21.124Z"
+    "latency": 1234,
+    "last_checked": "2026-06-09T09:36:45.007Z"
   },
   {
     "name": "Waifu.pics",
@@ -556,9 +556,10 @@
     "description": "Image sharing platform for anime images",
     "auth": "No",
     "category": "Anime",
-    "status": "Online",
-    "latency": 1733,
-    "last_checked": "2026-06-09T05:52:21.423Z"
+    "status": "Offline",
+    "latency": null,
+    "last_checked": "2026-06-09T09:36:45.020Z",
+    "error": "fetch failed"
   },
   {
     "name": "AbuseIPDB",
@@ -567,8 +568,8 @@
     "auth": "apiKey",
     "category": "Anti-Malware",
     "status": "Online",
-    "latency": 788,
-    "last_checked": "2026-06-09T05:52:20.479Z"
+    "latency": 703,
+    "last_checked": "2026-06-09T09:36:44.478Z"
   },
   {
     "name": "AlienVault Open Threat Exchange (OTX)",
@@ -577,8 +578,8 @@
     "auth": "apiKey",
     "category": "Anti-Malware",
     "status": "Online",
-    "latency": 1033,
-    "last_checked": "2026-06-09T05:52:20.725Z"
+    "latency": 755,
+    "last_checked": "2026-06-09T09:36:44.530Z"
   },
   {
     "name": "CAPEsandbox",
@@ -587,8 +588,8 @@
     "auth": "apiKey",
     "category": "Anti-Malware",
     "status": "Online",
-    "latency": 798,
-    "last_checked": "2026-06-09T05:52:20.490Z"
+    "latency": 856,
+    "last_checked": "2026-06-09T09:36:44.632Z"
   },
   {
     "name": "Google Safe Browsing",
@@ -597,8 +598,8 @@
     "auth": "apiKey",
     "category": "Anti-Malware",
     "status": "Online",
-    "latency": 1008,
-    "last_checked": "2026-06-09T05:52:20.701Z"
+    "latency": 1239,
+    "last_checked": "2026-06-09T09:36:45.016Z"
   },
   {
     "name": "MalDatabase",
@@ -607,8 +608,8 @@
     "auth": "apiKey",
     "category": "Anti-Malware",
     "status": "Online",
-    "latency": 314,
-    "last_checked": "2026-06-09T05:52:22.919Z"
+    "latency": 270,
+    "last_checked": "2026-06-09T09:36:45.308Z"
   },
   {
     "name": "MalShare",
@@ -617,8 +618,8 @@
     "auth": "apiKey",
     "category": "Anti-Malware",
     "status": "Online",
-    "latency": 399,
-    "last_checked": "2026-06-09T05:52:23.005Z"
+    "latency": 371,
+    "last_checked": "2026-06-09T09:36:45.411Z"
   },
   {
     "name": "MalwareBazaar",
@@ -627,8 +628,8 @@
     "auth": "apiKey",
     "category": "Anti-Malware",
     "status": "Online",
-    "latency": 260,
-    "last_checked": "2026-06-09T05:52:22.867Z"
+    "latency": 291,
+    "last_checked": "2026-06-09T09:36:45.332Z"
   },
   {
     "name": "Metacert",
@@ -637,8 +638,8 @@
     "auth": "apiKey",
     "category": "Anti-Malware",
     "status": "Online",
-    "latency": 554,
-    "last_checked": "2026-06-09T05:52:23.161Z"
+    "latency": 470,
+    "last_checked": "2026-06-09T09:36:45.511Z"
   },
   {
     "name": "NoPhishy",
@@ -647,8 +648,8 @@
     "auth": "apiKey",
     "category": "Anti-Malware",
     "status": "Online",
-    "latency": 178,
-    "last_checked": "2026-06-09T05:52:22.786Z"
+    "latency": 852,
+    "last_checked": "2026-06-09T09:36:45.894Z"
   },
   {
     "name": "Phisherman",
@@ -658,7 +659,7 @@
     "category": "Anti-Malware",
     "status": "Offline",
     "latency": null,
-    "last_checked": "2026-06-09T05:52:22.727Z",
+    "last_checked": "2026-06-09T09:36:45.238Z",
     "error": "fetch failed"
   },
   {
@@ -668,8 +669,8 @@
     "auth": "apiKey",
     "category": "Anti-Malware",
     "status": "Online",
-    "latency": 377,
-    "last_checked": "2026-06-09T05:52:22.985Z"
+    "latency": 206,
+    "last_checked": "2026-06-09T09:36:45.249Z"
   },
   {
     "name": "URLhaus",
@@ -678,8 +679,8 @@
     "auth": "No",
     "category": "Anti-Malware",
     "status": "Online",
-    "latency": 513,
-    "last_checked": "2026-06-09T05:52:23.122Z"
+    "latency": 549,
+    "last_checked": "2026-06-09T09:36:45.593Z"
   },
   {
     "name": "URLScan.io",
@@ -688,8 +689,8 @@
     "auth": "apiKey",
     "category": "Anti-Malware",
     "status": "Online",
-    "latency": 1526,
-    "last_checked": "2026-06-09T05:52:24.135Z"
+    "latency": 1522,
+    "last_checked": "2026-06-09T09:36:46.566Z"
   },
   {
     "name": "VirusTotal",
@@ -698,8 +699,8 @@
     "auth": "apiKey",
     "category": "Anti-Malware",
     "status": "Online",
-    "latency": 345,
-    "last_checked": "2026-06-09T05:52:22.955Z"
+    "latency": 281,
+    "last_checked": "2026-06-09T09:36:45.326Z"
   },
   {
     "name": "Web of Trust",
@@ -708,8 +709,8 @@
     "auth": "apiKey",
     "category": "Anti-Malware",
     "status": "Offline",
-    "latency": 365,
-    "last_checked": "2026-06-09T05:52:22.975Z"
+    "latency": 352,
+    "last_checked": "2026-06-09T09:36:45.397Z"
   },
   {
     "name": "Améthyste",
@@ -719,7 +720,7 @@
     "category": "Art & Design",
     "status": "Offline",
     "latency": null,
-    "last_checked": "2026-06-09T05:52:23.519Z",
+    "last_checked": "2026-06-09T09:36:45.512Z",
     "error": "fetch failed"
   },
   {
@@ -729,8 +730,8 @@
     "auth": "No",
     "category": "Art & Design",
     "status": "Online",
-    "latency": 697,
-    "last_checked": "2026-06-09T05:52:23.309Z"
+    "latency": 624,
+    "last_checked": "2026-06-09T09:36:45.670Z"
   },
   {
     "name": "Colormind",
@@ -739,8 +740,8 @@
     "auth": "No",
     "category": "Art & Design",
     "status": "Online",
-    "latency": 827,
-    "last_checked": "2026-06-09T05:52:23.439Z"
+    "latency": 607,
+    "last_checked": "2026-06-09T09:36:45.654Z"
   },
   {
     "name": "ColourLovers",
@@ -749,8 +750,8 @@
     "auth": "No",
     "category": "Art & Design",
     "status": "Offline",
-    "latency": 779,
-    "last_checked": "2026-06-09T05:52:23.392Z"
+    "latency": 597,
+    "last_checked": "2026-06-09T09:36:45.644Z"
   },
   {
     "name": "Cooper Hewitt",
@@ -759,8 +760,8 @@
     "auth": "apiKey",
     "category": "Art & Design",
     "status": "Online",
-    "latency": 1197,
-    "last_checked": "2026-06-09T05:52:23.810Z"
+    "latency": 884,
+    "last_checked": "2026-06-09T09:36:45.931Z"
   },
   {
     "name": "Dribbble",
@@ -769,8 +770,8 @@
     "auth": "OAuth",
     "category": "Art & Design",
     "status": "Online",
-    "latency": 1364,
-    "last_checked": "2026-06-09T05:52:23.977Z"
+    "latency": 722,
+    "last_checked": "2026-06-09T09:36:45.770Z"
   },
   {
     "name": "DummyImage",
@@ -779,8 +780,8 @@
     "auth": "No",
     "category": "Art & Design",
     "status": "Online",
-    "latency": 1032,
-    "last_checked": "2026-06-09T05:52:23.646Z"
+    "latency": 772,
+    "last_checked": "2026-06-09T09:36:45.820Z"
   },
   {
     "name": "EmojiHub",
@@ -789,8 +790,8 @@
     "auth": "No",
     "category": "Art & Design",
     "status": "Online",
-    "latency": 399,
-    "last_checked": "2026-06-09T05:52:23.014Z"
+    "latency": 441,
+    "last_checked": "2026-06-09T09:36:45.490Z"
   },
   {
     "name": "Europeana",
@@ -799,8 +800,8 @@
     "auth": "apiKey",
     "category": "Art & Design",
     "status": "Offline",
-    "latency": 1065,
-    "last_checked": "2026-06-09T05:52:23.680Z"
+    "latency": 976,
+    "last_checked": "2026-06-09T09:36:46.025Z"
   },
   {
     "name": "Harvard Art Museums",
@@ -809,8 +810,8 @@
     "auth": "apiKey",
     "category": "Art & Design",
     "status": "Online",
-    "latency": 512,
-    "last_checked": "2026-06-09T05:52:24.647Z"
+    "latency": 550,
+    "last_checked": "2026-06-09T09:36:47.116Z"
   },
   {
     "name": "Icon Horse",
@@ -819,8 +820,8 @@
     "auth": "No",
     "category": "Art & Design",
     "status": "Online",
-    "latency": 216,
-    "last_checked": "2026-06-09T05:52:24.351Z"
+    "latency": 327,
+    "last_checked": "2026-06-09T09:36:46.893Z"
   },
   {
     "name": "Iconfinder",
@@ -829,8 +830,8 @@
     "auth": "apiKey",
     "category": "Art & Design",
     "status": "Offline",
-    "latency": 24,
-    "last_checked": "2026-06-09T05:52:24.160Z"
+    "latency": 103,
+    "last_checked": "2026-06-09T09:36:46.670Z"
   },
   {
     "name": "Icons8",
@@ -839,8 +840,8 @@
     "auth": "No",
     "category": "Art & Design",
     "status": "Online",
-    "latency": 157,
-    "last_checked": "2026-06-09T05:52:24.294Z"
+    "latency": 101,
+    "last_checked": "2026-06-09T09:36:46.669Z"
   },
   {
     "name": "Lordicon",
@@ -849,8 +850,8 @@
     "auth": "No",
     "category": "Art & Design",
     "status": "Online",
-    "latency": 588,
-    "last_checked": "2026-06-09T05:52:24.725Z"
+    "latency": 507,
+    "last_checked": "2026-06-09T09:36:47.076Z"
   },
   {
     "name": "Metropolitan Museum of Art",
@@ -859,8 +860,8 @@
     "auth": "No",
     "category": "Art & Design",
     "status": "Online",
-    "latency": 184,
-    "last_checked": "2026-06-09T05:52:24.322Z"
+    "latency": 165,
+    "last_checked": "2026-06-09T09:36:46.734Z"
   },
   {
     "name": "Noun Project",
@@ -869,8 +870,8 @@
     "auth": "OAuth",
     "category": "Art & Design",
     "status": "Online",
-    "latency": 218,
-    "last_checked": "2026-06-09T05:52:24.356Z"
+    "latency": 160,
+    "last_checked": "2026-06-09T09:36:46.730Z"
   },
   {
     "name": "PHP-Noise",
@@ -879,8 +880,8 @@
     "auth": "No",
     "category": "Art & Design",
     "status": "Online",
-    "latency": 615,
-    "last_checked": "2026-06-09T05:52:24.754Z"
+    "latency": 680,
+    "last_checked": "2026-06-09T09:36:47.250Z"
   },
   {
     "name": "Pixel Encounter",
@@ -890,7 +891,7 @@
     "category": "Art & Design",
     "status": "Offline",
     "latency": null,
-    "last_checked": "2026-06-09T05:52:24.420Z",
+    "last_checked": "2026-06-09T09:36:47.009Z",
     "error": "fetch failed"
   },
   {
@@ -900,8 +901,8 @@
     "auth": "apiKey",
     "category": "Art & Design",
     "status": "Offline",
-    "latency": 660,
-    "last_checked": "2026-06-09T05:52:24.800Z"
+    "latency": 742,
+    "last_checked": "2026-06-09T09:36:47.313Z"
   },
   {
     "name": "UpRes",
@@ -910,8 +911,8 @@
     "auth": "apiKey",
     "category": "Art & Design",
     "status": "Online",
-    "latency": 340,
-    "last_checked": "2026-06-09T05:52:24.480Z"
+    "latency": 424,
+    "last_checked": "2026-06-09T09:36:46.997Z"
   },
   {
     "name": "Word Cloud",
@@ -920,8 +921,8 @@
     "auth": "apiKey",
     "category": "Art & Design",
     "status": "Online",
-    "latency": 523,
-    "last_checked": "2026-06-09T05:52:24.664Z"
+    "latency": 502,
+    "last_checked": "2026-06-09T09:36:47.074Z"
   },
   {
     "name": "xColors",
@@ -930,8 +931,8 @@
     "auth": "No",
     "category": "Art & Design",
     "status": "Offline",
-    "latency": 549,
-    "last_checked": "2026-06-09T05:52:24.690Z"
+    "latency": 721,
+    "last_checked": "2026-06-09T09:36:47.294Z"
   },
   {
     "name": "Auth0",
@@ -940,8 +941,8 @@
     "auth": "apiKey",
     "category": "Authentication & Authorization",
     "status": "Online",
-    "latency": 569,
-    "last_checked": "2026-06-09T05:52:24.711Z"
+    "latency": 682,
+    "last_checked": "2026-06-09T09:36:47.255Z"
   },
   {
     "name": "GetOTP",
@@ -950,8 +951,8 @@
     "auth": "apiKey",
     "category": "Authentication & Authorization",
     "status": "Online",
-    "latency": 616,
-    "last_checked": "2026-06-09T05:52:24.758Z"
+    "latency": 828,
+    "last_checked": "2026-06-09T09:36:47.402Z"
   },
   {
     "name": "Micro User Service",
@@ -960,8 +961,8 @@
     "auth": "apiKey",
     "category": "Authentication & Authorization",
     "status": "Offline",
-    "latency": 1000,
-    "last_checked": "2026-06-09T05:52:25.143Z"
+    "latency": 984,
+    "last_checked": "2026-06-09T09:36:47.559Z"
   },
   {
     "name": "MojoAuth",
@@ -970,8 +971,8 @@
     "auth": "apiKey",
     "category": "Authentication & Authorization",
     "status": "Online",
-    "latency": 704,
-    "last_checked": "2026-06-09T05:52:24.847Z"
+    "latency": 776,
+    "last_checked": "2026-06-09T09:36:47.351Z"
   },
   {
     "name": "SAWO Labs",
@@ -981,7 +982,7 @@
     "category": "Authentication & Authorization",
     "status": "Offline",
     "latency": null,
-    "last_checked": "2026-06-09T05:52:24.912Z",
+    "last_checked": "2026-06-09T09:36:47.428Z",
     "error": "fetch failed"
   },
   {
@@ -991,8 +992,8 @@
     "auth": "apiKey",
     "category": "Authentication & Authorization",
     "status": "Online",
-    "latency": 1360,
-    "last_checked": "2026-06-09T05:52:25.505Z"
+    "latency": 1585,
+    "last_checked": "2026-06-09T09:36:48.162Z"
   },
   {
     "name": "Warrant",
@@ -1001,8 +1002,8 @@
     "auth": "apiKey",
     "category": "Authentication & Authorization",
     "status": "Online",
-    "latency": 815,
-    "last_checked": "2026-06-09T05:52:24.961Z"
+    "latency": 776,
+    "last_checked": "2026-06-09T09:36:47.353Z"
   },
   {
     "name": "Bitquery",
